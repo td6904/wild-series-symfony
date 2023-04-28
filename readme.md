@@ -2,13 +2,13 @@
 
 ## Usage
 
-Run composer install to run dependencies.
+Run ' composer install ' to run dependencies. ' Then run yarn install '
 
 #### For connecting to the database using MySQL.
 
 DATABASE_URL="mysql://USERNAME_HERE:PASSWORD_HERE@127.0.0.1:3306/app?serverVersion=8&charset=utf8mb4"
 
-#### Affterwards
+#### Afterwards
 
 Run the command: symfony server:start -d , to start the server.
 
